@@ -88,10 +88,15 @@
 #game-canvas {
   border: 10px solid #747272;
 }
-
+#playerName{
+    width:70%;
+}
+..player-input {
+    margin-top: 20px;
+}
 .score-panel, .leaderboard-panel {
   flex: 1;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
 }
 /*
@@ -140,11 +145,12 @@
   
   #removeScore{
     position: absolute;
-    left:1%;
+    left:15%;
     padding: 2px;
     background-color: #eee;
     border: 1px solid #ccc;
     border-radius: 5px;
+    top:130%;
   }
   
   /*Botones*/
@@ -177,7 +183,7 @@
     border: 10px solid #161515;
     border-radius: 20px;
     width: 45%;
-    margin-left: 61%;
+    margin-left: 59%;
   }
   
   #contenedortopLayersYbotonera{
