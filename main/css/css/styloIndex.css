@@ -81,7 +81,7 @@
   background-color: #eee;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 15%;
+  width: 50%;
   align-items: center;
 }
 
@@ -151,7 +151,7 @@
   #start-button{
   position: relative;
   left: 10%;
-  width: 40%;
+  width: 50%;
   }
   
   #stop-button{
